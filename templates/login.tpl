@@ -6,8 +6,8 @@
 	<!-- IF allowLocalLogin -->
 	<div class="<!-- IF alternate_logins -->col-md-6<!-- ELSE -->col-md-6 col-md-offset-3<!-- ENDIF alternate_logins -->">
 		<div class="login-block">
-			<div class="login-logo-container col-lg-12">
-				<img src="assets/images/login-logo.jpg">
+			<div class="login-logo-container col-lg-12 text-center">
+				<img class="img-responsive" src="assets/images/login-logo.jpg">
 			</div>
 			<div class="alert alert-danger col-lg-12" id="login-error-notify" <!-- IF error -->style="display:block"<!-- ELSE -->style="display: none;"<!-- ENDIF error -->>
 				<button type="button" class="close" data-dismiss="alert">&times;</button>
